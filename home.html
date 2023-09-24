@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+<style>
+    /* Agrega aquí tus estilos CSS personalizados */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+    }
+    nav {
+        background-color: #bcc5bb;
+        color: #fff;
+        padding: 10px;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #444;
+        min-width: 160px;
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: #fff;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .search-bar {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 20px 0;
+    }
+    /* Agrega más estilos según tus necesidades */
+</style>
+</head>
+<body>
+<header>
+    <h1>Bienvenido, Usuario Registrado</h1>
+</header>
+
+<nav>
+    <ul>
+        <li class="dropdown">
+            <a href="#">Perfil</a>
+            <div class="dropdown-content">
+                <a href="#">Editar Perfil</a>
+                <a href="#">Cambiar Contraseña</a>
+            </div>
+        </li>
+        <li><a href="#">Carrito</a></li>
+        <li><a href="#">Historial de Compras</a></li>
+        <li class="dropdown">
+            <a href="#">Configuración</a>
+            <div class="dropdown-content">
+                <a href="#">Preferencias</a>
+                <a href="#">Notificaciones</a>
+            </div>
+        </li>
+        <li><a href="#">Cerrar Sesión</a></li>
+    </ul>
+</nav>
+
+<div class="search-bar">
+    <input type="text" placeholder="Buscar productos...">
+</div>
+
+<p>aqui agrego el contenido</p>
+
+</body>
+</html>
